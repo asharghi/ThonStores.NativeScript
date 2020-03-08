@@ -1,0 +1,27 @@
+// Import app variables
+@import 'app-variables';
+
+// Import the theme’s main ruleset - both index and platform specific.
+@import '~nativescript-theme-core/scss/index';
+@import '~nativescript-theme-core/scss/platforms/index.android';
+
+// Import common styles
+@import 'app-common';
+.fa-brands {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+}
+  
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+Label {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    color: #333;
+}

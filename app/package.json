@@ -1,0 +1,10 @@
+{
+  "main": "app.js",
+  "android": {
+    "v8Flags": "--expose_gc",
+    "markingMode": "none"
+  },
+  "dependencies": {
+    "nativescript-fonticon": "^2.0.0"
+  }
+}
